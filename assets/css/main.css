@@ -1146,6 +1146,15 @@ section,
 /*--------------------------------------------------------------
 # Portfolio Details Section
 --------------------------------------------------------------*/
+
+.swiper-slide img {
+  max-width: 100%;  /* Assegura que a imagem não ultrapasse a largura do contêiner */
+  height: auto;     /* Mantém a proporção da imagem */
+  max-height: 500px; /* Define uma altura máxima (você pode ajustar o valor conforme necessário) */
+  object-fit: contain; /* Garante que a imagem seja dimensionada corretamente sem distorção */
+}
+
+
 .portfolio-details .portfolio-details-slider img {
   width: 100%;
 }
